@@ -1,0 +1,14 @@
+[Unit]
+Description=CUPS to Gotify Notification Monitor
+After=network.target cups.service
+Requires=cups.service
+
+[Service]
+ExecStart=/usr/local/bin/cups_monitor.sh
+User=root
+Group=lp
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

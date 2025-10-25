@@ -1,6 +1,3 @@
-Here’s your Markdown file content, cleanly formatted for GitHub or Obsidian use:
-
-````markdown
 # CUPS Gotify Monitor
 
 This project contains a simple Bash script and systemd service to actively monitor a CUPS print server on a Linux machine (like a Raspberry Pi). It sends notifications to a Gotify server for print successes, hardware/software failures, and CUPS service status.
@@ -25,7 +22,6 @@ This monitor is designed to be lightweight, persistent, and "set-it-and-forget-i
 - **curl** installed on the CUPS server  
   ```bash
   sudo apt install curl
-````
 
 * **systemd** (standard on most modern Linux distros, including Raspbian)
 

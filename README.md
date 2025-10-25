@@ -22,6 +22,7 @@ This monitor is designed to be lightweight, persistent, and "set-it-and-forget-i
 - **curl** installed on the CUPS server  
   ```bash
   sudo apt install curl
+  ```
 
 * **systemd** (standard on most modern Linux distros, including Raspbian)
 
@@ -151,11 +152,7 @@ To watch the live log output from the script itself:
 sudo journalctl -u cups-gotify-monitor.service -f
 ```
 
----
-
 ## License
 
 This project is licensed under the **MIT License**.
 See the `LICENSE` file for details.
-
-```
